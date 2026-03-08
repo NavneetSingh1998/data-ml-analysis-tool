@@ -1,0 +1,22 @@
+# Requirements.txt
+
+This file lists the necessary packages for data analysis and machine learning:
+
+```
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+plotly
+streamlit
+prophet
+tensorflow
+scipy
+```
+
+Make sure to install dependencies using:
+
+```bash
+pip install -r requirements.txt
+```
