@@ -1,0 +1,30 @@
+#STRUCTURE OF THE CONTENT
+
+data-ml-analysis-tool/
+├── README.md
+├── requirements.txt
+├── setup.py
+├── config.py
+├── data/
+│   ├── sample_customer_sales.csv
+│   └── sample_time_series.csv
+├── src/
+│   ├── __init__.py
+│   ├── data_loader.py
+│   ├── preprocessing.py
+│   ├── exploratory_analysis.py
+│   ├── regression_model.py
+│   ├── classification_model.py
+│   ├── clustering_model.py
+│   ├── time_series_model.py
+│   ├── recommendation_engine.py
+│   ├── model_evaluator.py
+│   └── visualizations.py
+├── web/
+│   ├── __init__.py
+│   └── streamlit_app.py
+├── cli/
+│   ├── __init__.py
+│   └── cli_main.py
+└── notebooks/
+    └── example_analysis.ipynb
